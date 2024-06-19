@@ -1,0 +1,9 @@
+2024-06-19 17:53:33 [main] INFO  com.woong.log.LogApplication - Logback + slf4j 조합 테스트 start
+2024-06-19 17:53:33 [main] ERROR com.woong.log.LogApplication - An error occurred while performing the task
+java.lang.Exception: null
+	at com.woong.log.LogApplication.testLogback(LogApplication.java:22)
+	at com.woong.log.LogApplication.main(LogApplication.java:12)
+2024-06-19 17:53:33 [main] INFO  com.woong.log.LogApplication - Logback + slf4j 조합 테스트 end
+2024-06-19 17:53:33 [main] INFO  com.woong.log.LogApplication - Starting LogApplication using Java 21.0.1 with PID 34914 (/Users/woong/Downloads/log/build/classes/java/main started by woong in /Users/woong/Downloads/log)
+2024-06-19 17:53:33 [main] INFO  com.woong.log.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-19 17:53:33 [main] INFO  com.woong.log.LogApplication - Started LogApplication in 0.344 seconds (process running for 0.644)
